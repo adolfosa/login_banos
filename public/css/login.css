@@ -39,14 +39,6 @@ nav h1 {
   margin: 0;
 }
 
-h2 {
-  text-align: left;
-  font: normal normal bold 28px/32px Arial;
-  letter-spacing: 0px;
-  color: #2699fb;
-  margin-bottom: 1.5rem;
-}
-
 .logo-pullman {
   width: 192px;
   height: 55px;
@@ -57,7 +49,7 @@ h2 {
   height: 36px;
 }
 .user-input {
-  width: 248px;
+  width: 230px;
   height: 48px;
   border-radius: 24px;
   box-shadow: inset 1px 4px 2px #00000029;
@@ -104,7 +96,10 @@ h2 {
 
 .login-title {
   text-align: center;
-  color: #ff5600;
+  color: #ff5600;    
+  font: normal normal bold 28px/32px Arial;
+  letter-spacing: 0px;  
+  margin-bottom: 1.5rem;
 }
 
 .form-group {
@@ -113,4 +108,12 @@ h2 {
 
 .text-center {
   text-align: center;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #2699fb;
+  font-size: 14px;
 }
