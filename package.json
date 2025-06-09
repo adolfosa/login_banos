@@ -1,0 +1,27 @@
+{
+  "name": "login_banos",
+  "version": "1.0.0",
+  "description": "login para caja de baños",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adolfosa/login_banos.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adolfosa/login_banos/issues"
+  },
+  "homepage": "https://github.com/adolfosa/login_banos#readme",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.1.0",
+    "express-session": "^1.18.1",
+    "mysql2": "^3.14.1"
+  }
+}
